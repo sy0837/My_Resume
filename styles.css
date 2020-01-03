@@ -1,0 +1,250 @@
+/***********************************************tags*************************************************/
+body{
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+    font-size: 5.65rem;
+    color: #06604e;
+    font-weight: bold;
+}
+h2{
+  font-family: 'Ma Shan Zheng', cursive;
+  color: #66BFBF;
+  font-size: 4rem;
+}
+h3{
+  color: #66BFBF;
+  font-weight: bold;
+}
+h4{
+  font-size: 2.5rem;
+  font-family: 'Montez', sans-serif;
+
+    font-weight: normal;
+    color: #66BFBF;
+}
+a{
+  font-family: 'Montserrat';
+  font-weight: bold;
+
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+/*********************************************class************************************************/
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+.cover-top{
+padding-top: 5%;
+}
+.title{
+  padding: 40px;
+}
+.title-text{
+  margin: 20px 160px 40px;
+
+}
+
+
+.sun{
+  width: 5%;
+  margin-left: 300px;
+
+}
+.cloud-top{
+  margin-left: 1200px;
+
+}
+.cloud-bottom{
+  margin-left: 140px;
+}
+.earth-holder{
+  margin-left: 750px;
+max-width: 1000px;
+overflow: hidden;
+}
+
+.earth{
+  max-width: 100%;
+
+}
+.profile{
+    text-align: center;
+  margin: 5% auto;
+  width: 30%;
+}
+.about1{
+  margin-top: 5px;
+  font-size: 1.2rem;
+  padding: 5%;
+  line-height: 2;
+}
+.coffee{
+
+  position: absolute;
+  width: 8%;
+  margin-left: 400px;
+  margin-top: 15%;
+  transform: rotate(-20deg);
+
+}
+
+.skills{
+  text-align: center;
+}
+.skill-row{
+  width: 50%;
+margin: 100px auto 60px auto;
+text-align: left;
+line-height: 2;
+
+}
+.skill1{
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+
+}
+.skill2{
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+
+}
+.skill1-text{
+  font-size: 1rem;
+  font-family: 'Montserrat';
+  padding: 0 auto 0 0;
+
+
+}
+.skill2-text{
+  padding-top: 5%;
+  font-size: 1rem;
+  font-family: 'Montserrat';
+
+
+
+}
+.swimming{
+  text-align: right;
+}
+.desc{
+  text-align: right;
+}
+.tag{
+
+  position: absolute;
+  width: 10%;
+  margin-left: 200px;
+
+}
+.check{
+  margin-top: 90px;
+}
+.contact-me{
+  background-color: #E4F9F5;
+  text-align: center;
+  padding: 1%;
+
+}
+.contact{
+  color: #06604e;
+}
+
+
+.contact-button{
+  font-family: 'Montserrat';
+  color: #06604e;
+}
+.copywrite{
+  margin-top: 20px;
+}
+.footer-link{
+  margin: 50px ;
+}
+.caption{
+  color: #06604e;
+  font-family: 'Montserrat';
+
+}
+.invite{
+  font-size: 40px;;
+  font-family: 'Montez';
+  color: #66BFBF;
+
+}
+.path{
+  position: absolute;
+  width: 30%;
+  margin-left: 100px;
+  margin-top: 10px;
+
+}
+.circle{
+  position: absolute;
+  margin-left: 1200px;
+}
+.rectangle{
+  position: absolute;
+  width: 10%;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+/*********************************************Id***********************************************/
+#top{
+  background-color: #E4F9F5;
+
+}
+#middle{
+  background-color: white;
+}
+#bottom{
+  text-align: center;
+  padding: 1%;
+}
+/*******************************************mediaQuery*****************************************/
+@media (max-width:1600px){
+  .cloud-top{
+    margin-left: 700px;
+
+  }
+  .rectangle{
+    position: absolute;
+    width: 10%;
+    margin-left: 150px;
+    margin-top: 100px;
+  }
+  .earth-holder{
+    margin: 0 auto;
+  max-width: 1000px;
+  overflow: hidden;
+  }
+  .coffee{
+    margin-left: 100px;
+  }
+
+  .profile{
+    width: 50%;
+  }
+  .profile-image{
+    width: 50%;
+  }
+  .about1{
+    margin-top: 10px;
+    font-size: 0.9rem;
+    padding: 10%;
+    line-height: 2;
+  }
+  .contact-me{
+    background-color: #E4F9F5;
+    text-align: center;
+    padding: 1%;
+
+  }
+
+}
