@@ -120,17 +120,23 @@ line-height: 2;
   font-size: 1rem;
   font-family: 'Montserrat';
   padding: 0 auto 0 0;
+  
+
+
+}
+.skill1-text:hover{
   transform: scale(1.5);
-
-
 }
 .skill2-text{
   padding-top: 5%;
   font-size: 1rem;
   font-family: 'Montserrat';
+  
+
+
+}
+.skill2-text:hover{
   transform: scale(1.5);
-
-
 }
 .swimming{
   text-align: right;
