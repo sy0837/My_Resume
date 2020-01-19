@@ -104,6 +104,9 @@ text-align: left;
 line-height: 2;
 
 }
+.skill-row:hover{
+  transform: scale(1.5);
+}
 .skill1{
   width: 15%;
   float: left;
@@ -124,9 +127,7 @@ line-height: 2;
 
 
 }
-.skill1-text:hover{
-  transform: scale(1.5);
-}
+
 .skill2-text{
   padding-top: 5%;
   font-size: 1rem;
@@ -135,9 +136,7 @@ line-height: 2;
 
 
 }
-.skill2-text:hover{
-  transform: scale(1.5);
-}
+
 .swimming{
   text-align: right;
 }
