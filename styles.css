@@ -141,7 +141,7 @@ line-height: 2;
   text-align: right;
 }
 .desc{
-  text-align: right;
+  /* text-align: right; */
 }
 .tag{
 
